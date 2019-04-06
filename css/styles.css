@@ -1,0 +1,147 @@
+body {
+  margin-top: 50px;
+  height: calc(110vh - 100px);
+  background-image: url("../resources/characters.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  overflow: show;
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #404040;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background: #666666;
+  color: black;
+}
+
+.row {
+  margin: 25px 0px;
+}
+
+h2 {
+  padding-top: 80px
+}
+#Hiraganaparagraph {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  padding-left: 200px;
+  padding-right:200px;
+  position:relative;
+  top:80px;
+}
+#Katakanaparagraph {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  padding-left: 200px;
+  padding-right:200px;
+  position:relative;
+  top:180px;
+}
+#Kanjiparagraph {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  padding-left: 200px;
+  padding-right:200px;
+  position:relative;
+  top:280px;
+}
+
+#welcome {
+  margin-top: 70px;
+  color:#333333;
+  text-align:center;
+  position: relative;
+}
+
+.carousel {
+  font-family: "Times New Roman", Times, serif;
+  width:900px;
+  height:600px;
+  position: relative;
+  top: 50px;
+  will-change: transform;
+}
+
+#hiraganachart{
+  padding-left: 200px;
+  font-family: "Times New Roman", Times, serif;
+  color:Black;
+  text-decoration: underline;
+  text-align: centre;
+  position: relative;
+  top: 50px;
+}
+#katakanachart{
+  padding-left: 200px;
+  font-family: "Times New Roman", Times, serif;
+  color:Black;
+  text-decoration: underline;
+  text-align: centre;
+  position: relative;
+  top: 150px;
+}
+
+#kanjichart{
+  padding-left: 200px;
+  font-family: "Times New Roman", Times, serif;
+  color:Black;
+  text-decoration: underline;
+  text-align: centre;
+  position: relative;
+  top: 250px;
+}
+
+#phrasestitle{
+  font-family: "Times New Roman", Times, serif;
+  color:Black;
+  position: relative;
+  top: 390px;
+  text-decoration: underline;
+}
+
+#usefulphrases{
+  position: relative;
+  top: 390px;
+}
+
+#phrasesbutton{
+  color: white;
+}
+
+#culturebutton{
+  color: white;
+}
+
+#navbarDropdown{
+  color: white;
+}
+
+#culturetitle{
+  text-decoration: underline;
+  color:black;
+  padding-left: 5px;
+}
+#culturepart{
+  position: relative;
+  top: 500px;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url("../resources/background.png");
+  padding-bottom: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 1.5em;
+}
