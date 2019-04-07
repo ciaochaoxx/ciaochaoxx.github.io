@@ -1,4 +1,5 @@
 body {
+  will-change: transform;
   margin-top: 50px;
   height: calc(110vh - 100px);
   background-image: url("../resources/characters.jpg");
@@ -36,31 +37,38 @@ h2 {
   padding-top: 80px
 }
 #Hiraganaparagraph {
+  background-color: white;
+  margin:0px 150px;
+  padding-left: 10px;
+  padding-right:10px;
   font-family: "Times New Roman", Times, serif;
   color: black;
-  padding-left: 200px;
-  padding-right:200px;
   position:relative;
   top:80px;
 }
 #Katakanaparagraph {
+  margin:0px  150px;
+  background-color: white;
   font-family: "Times New Roman", Times, serif;
   color: black;
-  padding-left: 200px;
-  padding-right:200px;
+  padding-left: 10px;
+  padding-right:10px;
   position:relative;
   top:180px;
 }
 #Kanjiparagraph {
+  margin: 0px 150px;
+  background-color: white;
   font-family: "Times New Roman", Times, serif;
   color: black;
-  padding-left: 200px;
-  padding-right:200px;
+  padding-left: 10px;
+  padding-right:10px;
   position:relative;
   top:280px;
 }
 
 #welcome {
+  background-color: white;
   margin-top: 70px;
   color:#333333;
   text-align:center;
@@ -77,6 +85,7 @@ h2 {
 }
 
 #hiraganachart{
+  top: 50px;
   padding-left: 200px;
   font-family: "Times New Roman", Times, serif;
   color:Black;
@@ -86,6 +95,7 @@ h2 {
   top: 50px;
 }
 #katakanachart{
+  top: 50px;
   padding-left: 200px;
   font-family: "Times New Roman", Times, serif;
   color:Black;
@@ -96,6 +106,7 @@ h2 {
 }
 
 #kanjichart{
+  top: 50px;
   padding-left: 200px;
   font-family: "Times New Roman", Times, serif;
   color:Black;
