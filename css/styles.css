@@ -68,10 +68,11 @@ h2 {
 }
 
 #welcome {
+  margin-left: 270px;
   background-color: white;
   margin-top: 70px;
   color:#333333;
-  text-align:center;
+  padding-left: 20px;
   position: relative;
 }
 
